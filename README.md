@@ -3,7 +3,7 @@
 Este repositório contém a solução para o desafio de engenharia de dados e analytics, focado na ingestão, transformação e visualização da cotação do Dólar Comercial para o ano de 2025.
 
 ## Objetivo
-]Construir um pipeline de dados completo (ELT) estruturado em camadas (Raw, Bronze, Analytics) e um dashboard interativo para análise da variação cambial [cite: 3-8].
+Construir um pipeline de dados completo (ELT) estruturado em camadas (Raw, Bronze, Analytics) e um dashboard interativo para análise da variação cambial [cite: 3-8].
 
 ## Tech Stack
 - **Linguagem:** Python 3.10+
