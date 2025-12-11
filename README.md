@@ -3,7 +3,7 @@
 Este repositório contém a solução para o desafio de engenharia de dados e analytics, focado na ingestão, transformação e visualização da cotação do Dólar Comercial para o ano de 2025.
 
 ## Objetivo
-[cite_start]Construir um pipeline de dados completo (ELT) estruturado em camadas (Raw, Bronze, Analytics) e um dashboard interativo para análise da variação cambial [cite: 3-8].
+]Construir um pipeline de dados completo (ELT) estruturado em camadas (Raw, Bronze, Analytics) e um dashboard interativo para análise da variação cambial [cite: 3-8].
 
 ## Tech Stack
 - **Linguagem:** Python 3.10+
@@ -17,15 +17,15 @@ A organização segue o padrão sugerido de data lake local:
 ```text
 .
 ├── data/
-[cite_start]│   ├── raw/         # Arquivos JSON brutos baixados da API (12 arquivos) [cite: 26]
-[cite_start]│   ├── bronze/      # Dado consolidado, limpo e tipado (CSV) [cite: 38]
-[cite_start]│   └── analytics/   # Tabelas com métricas calculadas para consumo (CSV) [cite: 16]
+│   ├── raw/         # Arquivos JSON brutos baixados da API (12 arquivos) [cite: 26]
+|   ├── bronze/      # Dado consolidado, limpo e tipado (CSV) [cite: 38]
+│   └── analytics/   # Tabelas com métricas calculadas para consumo (CSV) [cite: 16]
 ├── src/
 │   ├── ingestion.py      # Script de ingestão da API do BC
 │   ├── transformation.py # Limpeza e padronização (Raw -> Bronze)
 │   └── analytics.py      # Cálculo de KPIs (Bronze -> Analytics)
 ├── dashboard/
 │   └── app.py       # Código do Dashboard Streamlit
-[cite_start]├── main.py          # Orquestrador principal da execução [cite: 84]
+├── main.py          # Orquestrador principal da execução [cite: 84]
 ├── requirements.txt # Dependências do projeto
 └── README.md
