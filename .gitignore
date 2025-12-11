@@ -1,0 +1,38 @@
+# ==================================
+# IGNORAR PASTAS DE AMBIENTE/CACHE
+# ==================================
+
+# Ambientes virtuais (padrão Python)
+.venv/
+env/
+venv/
+__pycache__/
+
+# Arquivos compilados do Python
+*.pyc
+*.pyo
+*~
+
+# ==================================
+# IGNORAR PASTAS ESPECÍFICAS DO PROJETO
+# ==================================
+
+# 1. IGNORAR TODOS OS DADOS PROCESSADOS E BRUTOS
+# (Em ambientes reais, esta pasta é tratada por Data Lakes/Warehouses, não pelo Git)
+data/
+
+# Se você tivesse criado o Power BI (.pbix) e decidisse não subir os dados
+# *.pbix
+
+# ==================================
+# IGNORAR ARQUIVOS ESPECÍFICOS DE IDEs
+# ==================================
+
+# Visual Studio Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db

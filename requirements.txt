@@ -1,0 +1,5 @@
+Biblioteca,Função no Projeto,Instalação
+requests,Realiza as chamadas à API do Banco Central na camada Raw .,pip install requests
+pandas,"Leitura, limpeza, consolidação (camada Bronze) e cálculo de métricas (camada Analytics).",pip install pandas
+streamlit,Criação e execução do dashboard interativo obrigatório.,pip install streamlit
+plotly,Biblioteca de visualização usada dentro do Streamlit para gerar gráficos de linha/barra.,pip install plotly
